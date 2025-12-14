@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Sun Dec 14 05:58:28 2025 as: nmap -sV -p 8080 -&#45;script vuln -oN /home/i/project/reports/nmapres_new.txt -oX /home/i/project/reports/nmapres_new.xml localhost -->
+<nmaprun scanner="nmap" args="nmap -sV -p 8080 -&#45;script vuln -oN /home/i/project/reports/nmapres_new.txt -oX /home/i/project/reports/nmapres_new.xml localhost" start="1765681108" startstr="Sun Dec 14 05:58:28 2025" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="8080"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1765681118" endtime="1765681118"><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="127.0.0.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="localhost" type="user"/>
+<hostname name="localhost" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8080"><state state="closed" reason="reset" reason_ttl="64"/><service name="http-proxy" method="table" conf="3"/></port>
+</ports>
+<times srtt="111" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1765681118" timestr="Sun Dec 14 05:58:38 2025" summary="Nmap done at Sun Dec 14 05:58:38 2025; 1 IP address (1 host up) scanned in 10.63 seconds" elapsed="10.63" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
